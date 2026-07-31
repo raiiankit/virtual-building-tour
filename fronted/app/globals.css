@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   DESIGN TOKENS — colors, radius, elevation (light + dark)
+   ========================================================================== */
+@layer base {
+  :root {
+    --radius: 18px;
+
+    --background: 210 40% 98%;         /* #F8FAFC */
+    --foreground: 222 47% 11%;
+    --surface: 0 0% 100%;
+    --surface-2: 210 40% 96%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 221 83% 53%;            /* #2563EB */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 40% 20%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 214 95% 93%;
+    --accent-foreground: 221 83% 40%;
+
+    --success: 160 84% 34%;
+    --success-foreground: 0 0% 100%;
+    --success-soft: 152 76% 94%;
+    --warning: 32 95% 44%;
+    --warning-foreground: 0 0% 100%;
+    --warning-soft: 40 96% 92%;
+    --danger: 0 74% 52%;
+    --danger-foreground: 0 0% 100%;
+    --danger-soft: 0 86% 96%;
+    --info: 217 91% 60%;
+    --info-foreground: 0 0% 100%;
+    --info-soft: 214 95% 94%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+    --shadow-color: 222 47% 25%;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 96%;
+    --surface: 222 40% 9%;
+    --surface-2: 222 33% 12%;
+
+    --card: 222 40% 9%;
+    --card-foreground: 210 40% 96%;
+    --popover: 222 44% 10%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 222 33% 14%;
+    --secondary-foreground: 210 40% 90%;
+    --muted: 222 33% 14%;
+    --muted-foreground: 217 15% 62%;
+    --accent: 222 40% 16%;
+    --accent-foreground: 213 94% 78%;
+
+    --success-soft: 160 60% 14%;
+    --warning-soft: 34 70% 15%;
+    --danger-soft: 0 60% 16%;
+    --info-soft: 217 60% 16%;
+
+    --border: 215 28% 18%;
+    --input: 215 28% 20%;
+    --ring: 217 91% 60%;
+    --shadow-color: 222 60% 2%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  body { @apply bg-background text-foreground font-sans; font-feature-settings: "cv02", "cv03", "cv04", "cv11"; }
+  ::selection { background: hsl(var(--primary) / 0.18); }
+
+  /* refined scrollbars */
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: hsl(var(--muted-foreground) / 0.28); border-radius: 999px; border: 3px solid transparent; background-clip: content-box; }
+  ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.45); background-clip: content-box; }
+
+  :focus-visible { @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background; }
+}
+
+@layer utilities {
+  .glass {
+    background: hsl(var(--surface) / 0.72);
+    backdrop-filter: saturate(180%) blur(14px);
+    -webkit-backdrop-filter: saturate(180%) blur(14px);
+  }
+  .text-balance { text-wrap: balance; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .grid-dots {
+    background-image: radial-gradient(hsl(var(--muted-foreground) / 0.18) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+}

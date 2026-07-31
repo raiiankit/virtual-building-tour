@@ -1,0 +1,670 @@
+{
+  "name": "Riverside Office Building",
+  "wallHeightM": 2.9,
+  "floorHeightM": 3.2,
+  "rooms": [
+    {
+      "name": "Stairwell (Ground)",
+      "type": "staircase",
+      "center": [
+        22.5,
+        6.5
+      ],
+      "size": [
+        3,
+        13
+      ],
+      "floor": 0,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Corridor (Ground)",
+      "type": "corridor",
+      "center": [
+        22.5,
+        14.5
+      ],
+      "size": [
+        45,
+        3
+      ],
+      "floor": 0,
+      "floorMaterial": "tile"
+    },
+    {
+      "name": "Elevator (Ground)",
+      "type": "lift",
+      "center": [
+        22.5,
+        23
+      ],
+      "size": [
+        3,
+        14
+      ],
+      "floor": 0,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Lobby",
+      "type": "foyer",
+      "center": [
+        10.5,
+        6.5
+      ],
+      "size": [
+        21,
+        13
+      ],
+      "floor": 0,
+      "floorMaterial": "tile"
+    },
+    {
+      "name": "Conference Room",
+      "type": "office",
+      "center": [
+        34.5,
+        6.5
+      ],
+      "size": [
+        21,
+        13
+      ],
+      "floor": 0,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Reception",
+      "type": "office",
+      "center": [
+        5.5,
+        19.5
+      ],
+      "size": [
+        11,
+        7
+      ],
+      "floor": 0,
+      "floorMaterial": "tile"
+    },
+    {
+      "name": "Office A",
+      "type": "office",
+      "center": [
+        16,
+        19.5
+      ],
+      "size": [
+        10,
+        7
+      ],
+      "floor": 0,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Mechanical",
+      "type": "utility",
+      "center": [
+        5.5,
+        26.5
+      ],
+      "size": [
+        11,
+        7
+      ],
+      "floor": 0,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Restroom (Ground)",
+      "type": "bathroom",
+      "center": [
+        16,
+        26.5
+      ],
+      "size": [
+        10,
+        7
+      ],
+      "floor": 0,
+      "floorMaterial": "antiskid"
+    },
+    {
+      "name": "Office B",
+      "type": "office",
+      "center": [
+        28.25,
+        23
+      ],
+      "size": [
+        8.5,
+        14
+      ],
+      "floor": 0,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Office C",
+      "type": "office",
+      "center": [
+        38.75,
+        19.5
+      ],
+      "size": [
+        12.5,
+        7
+      ],
+      "floor": 0,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Electrical Room",
+      "type": "utility",
+      "center": [
+        38.75,
+        26.5
+      ],
+      "size": [
+        12.5,
+        7
+      ],
+      "floor": 0,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Stairwell (1F)",
+      "type": "staircase",
+      "center": [
+        22.5,
+        6.5
+      ],
+      "size": [
+        3,
+        13
+      ],
+      "floor": 1,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Corridor (1F)",
+      "type": "corridor",
+      "center": [
+        22.5,
+        14.5
+      ],
+      "size": [
+        45,
+        3
+      ],
+      "floor": 1,
+      "floorMaterial": "tile"
+    },
+    {
+      "name": "Elevator (1F)",
+      "type": "lift",
+      "center": [
+        22.5,
+        23
+      ],
+      "size": [
+        3,
+        14
+      ],
+      "floor": 1,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Open Office",
+      "type": "office",
+      "center": [
+        10.5,
+        6.5
+      ],
+      "size": [
+        21,
+        13
+      ],
+      "floor": 1,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Conference Room B",
+      "type": "office",
+      "center": [
+        34.5,
+        6.5
+      ],
+      "size": [
+        21,
+        13
+      ],
+      "floor": 1,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Office 1",
+      "type": "office",
+      "center": [
+        5.5,
+        19.5
+      ],
+      "size": [
+        11,
+        7
+      ],
+      "floor": 1,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Office 2",
+      "type": "office",
+      "center": [
+        16,
+        19.5
+      ],
+      "size": [
+        10,
+        7
+      ],
+      "floor": 1,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Break Room",
+      "type": "dining",
+      "center": [
+        5.5,
+        26.5
+      ],
+      "size": [
+        11,
+        7
+      ],
+      "floor": 1,
+      "floorMaterial": "tile"
+    },
+    {
+      "name": "Restroom (1F)",
+      "type": "bathroom",
+      "center": [
+        16,
+        26.5
+      ],
+      "size": [
+        10,
+        7
+      ],
+      "floor": 1,
+      "floorMaterial": "antiskid"
+    },
+    {
+      "name": "Office 3",
+      "type": "office",
+      "center": [
+        28.25,
+        23
+      ],
+      "size": [
+        8.5,
+        14
+      ],
+      "floor": 1,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Office 4",
+      "type": "office",
+      "center": [
+        38.75,
+        19.5
+      ],
+      "size": [
+        12.5,
+        7
+      ],
+      "floor": 1,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Storage",
+      "type": "utility",
+      "center": [
+        38.75,
+        26.5
+      ],
+      "size": [
+        12.5,
+        7
+      ],
+      "floor": 1,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Stairwell (2F)",
+      "type": "staircase",
+      "center": [
+        22.5,
+        6.5
+      ],
+      "size": [
+        3,
+        13
+      ],
+      "floor": 2,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Corridor (2F)",
+      "type": "corridor",
+      "center": [
+        22.5,
+        14.5
+      ],
+      "size": [
+        45,
+        3
+      ],
+      "floor": 2,
+      "floorMaterial": "tile"
+    },
+    {
+      "name": "Elevator (2F)",
+      "type": "lift",
+      "center": [
+        22.5,
+        23
+      ],
+      "size": [
+        3,
+        14
+      ],
+      "floor": 2,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Open Office (Top)",
+      "type": "office",
+      "center": [
+        10.5,
+        6.5
+      ],
+      "size": [
+        21,
+        13
+      ],
+      "floor": 2,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Executive Office",
+      "type": "office",
+      "center": [
+        34.5,
+        6.5
+      ],
+      "size": [
+        21,
+        13
+      ],
+      "floor": 2,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Server Room",
+      "type": "utility",
+      "center": [
+        5.5,
+        19.5
+      ],
+      "size": [
+        11,
+        7
+      ],
+      "floor": 2,
+      "floorMaterial": "concrete"
+    },
+    {
+      "name": "Meeting Room A",
+      "type": "office",
+      "center": [
+        16,
+        19.5
+      ],
+      "size": [
+        10,
+        7
+      ],
+      "floor": 2,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Lounge",
+      "type": "living_room",
+      "center": [
+        5.5,
+        26.5
+      ],
+      "size": [
+        11,
+        7
+      ],
+      "floor": 2,
+      "floorMaterial": "tile"
+    },
+    {
+      "name": "Restroom (2F)",
+      "type": "bathroom",
+      "center": [
+        16,
+        26.5
+      ],
+      "size": [
+        10,
+        7
+      ],
+      "floor": 2,
+      "floorMaterial": "antiskid"
+    },
+    {
+      "name": "Meeting Room B",
+      "type": "office",
+      "center": [
+        28.25,
+        23
+      ],
+      "size": [
+        8.5,
+        14
+      ],
+      "floor": 2,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Office 6",
+      "type": "office",
+      "center": [
+        38.75,
+        19.5
+      ],
+      "size": [
+        12.5,
+        7
+      ],
+      "floor": 2,
+      "floorMaterial": "wood_floor"
+    },
+    {
+      "name": "Terrace",
+      "type": "balcony",
+      "center": [
+        38.75,
+        26.5
+      ],
+      "size": [
+        12.5,
+        7
+      ],
+      "floor": 2,
+      "floorMaterial": "outdoor"
+    }
+  ],
+  "windows": [
+    {
+      "pos": [
+        5,
+        0
+      ],
+      "len": 3.0,
+      "floor": 0
+    },
+    {
+      "pos": [
+        16,
+        0
+      ],
+      "len": 3.0,
+      "floor": 0
+    },
+    {
+      "pos": [
+        30,
+        0
+      ],
+      "len": 4.0,
+      "floor": 0
+    },
+    {
+      "pos": [
+        40,
+        0
+      ],
+      "len": 3.0,
+      "floor": 0
+    },
+    {
+      "pos": [
+        0,
+        20
+      ],
+      "len": 2.5,
+      "floor": 0
+    },
+    {
+      "pos": [
+        45,
+        20
+      ],
+      "len": 2.5,
+      "floor": 0
+    },
+    {
+      "pos": [
+        5,
+        0
+      ],
+      "len": 3.0,
+      "floor": 1
+    },
+    {
+      "pos": [
+        16,
+        0
+      ],
+      "len": 3.0,
+      "floor": 1
+    },
+    {
+      "pos": [
+        30,
+        0
+      ],
+      "len": 4.0,
+      "floor": 1
+    },
+    {
+      "pos": [
+        40,
+        0
+      ],
+      "len": 3.0,
+      "floor": 1
+    },
+    {
+      "pos": [
+        0,
+        20
+      ],
+      "len": 2.5,
+      "floor": 1
+    },
+    {
+      "pos": [
+        45,
+        20
+      ],
+      "len": 2.5,
+      "floor": 1
+    },
+    {
+      "pos": [
+        5,
+        0
+      ],
+      "len": 3.0,
+      "floor": 2
+    },
+    {
+      "pos": [
+        16,
+        0
+      ],
+      "len": 3.0,
+      "floor": 2
+    },
+    {
+      "pos": [
+        30,
+        0
+      ],
+      "len": 4.0,
+      "floor": 2
+    },
+    {
+      "pos": [
+        40,
+        0
+      ],
+      "len": 3.0,
+      "floor": 2
+    },
+    {
+      "pos": [
+        0,
+        20
+      ],
+      "len": 2.5,
+      "floor": 2
+    },
+    {
+      "pos": [
+        45,
+        20
+      ],
+      "len": 2.5,
+      "floor": 2
+    },
+    {
+      "pos": [
+        38.75,
+        30
+      ],
+      "len": 6.0,
+      "floor": 2
+    }
+  ],
+  "entrance": [
+    10.5,
+    0
+  ],
+  "furnish": true
+}
