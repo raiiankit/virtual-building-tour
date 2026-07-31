@@ -1,0 +1,16 @@
+# OPTIONAL — only needed when you move off SQLite to Postgres + Redis (later phases).
+# The app runs fully without this file using local SQLite + disk storage.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: vbt
+      POSTGRES_PASSWORD: vbt
+      POSTGRES_DB: vbt
+    ports: ["5432:5432"]
+    volumes: ["vbt_pg:/var/lib/postgresql/data"]
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
+volumes:
+  vbt_pg:
